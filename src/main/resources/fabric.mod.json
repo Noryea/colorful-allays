@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "colorful-allays",
+  "version": "${version}",
+  "name": "Colorful Allays",
+  "description": "Add allay variants of different colors. Use dyes to change their color!",
+  "authors": [
+    "Noryea"
+  ],
+  "contact": {
+    "sources": "https://github.com/Noryea/colorful-allays"
+  },
+
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.noryea.colorfulallays.ColorfulAllaysMod"
+    ]
+  },
+  "mixins": [
+    "colorful-allays.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11",
+    "java": ">=17"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.noryea.colorfulallays.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AllayEntityMixin",
+    "AllayEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
